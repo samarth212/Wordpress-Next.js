@@ -1,4 +1,4 @@
-export default {
+const worker = {
   async fetch(request) {
     const url = new URL(request.url);
 
@@ -40,3 +40,4 @@ export default {
   },
 };
 
+export default worker;
